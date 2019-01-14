@@ -20,7 +20,7 @@ class CashRegister
   def apply_discount
     if discount != 0 
       self.total = total - discount 
-      puts "Success! Your total is now #{self.total}!"
+      puts "After the discount, the total come to #{self.total}."
     else 
       puts "There is no discount to apply."
     end 
